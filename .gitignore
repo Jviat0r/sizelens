@@ -1,0 +1,33 @@
+# Rust build output
+/target/
+**/*.rs.bk
+*.pdb
+
+# Built programs (build.ps1 copies them here)
+/bin/
+
+# Test scratch data made by tests\run-tests.ps1 and the Explorer scripts
+/test-tree/
+/test-home/
+/test-home*/
+
+# Test run output (logs with local paths, window captures)
+/tests/*.txt
+/tests/*.png
+
+# Local test notes with machine-specific details
+/TEST-REPORT.md
+
+# Logs, local config, env files
+*.log
+*.out
+config.txt
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
