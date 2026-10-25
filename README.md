@@ -2,8 +2,6 @@
 
 Folder sizes in the normal Windows 10 File Explorer, so you can see them and sort folders by size.
 
-![SizeLens in Explorer](docs/screenshot.png)
-
 ```
 Name            Comments
 hotel-sparse    [3] 0003.00 GB
